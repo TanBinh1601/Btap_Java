@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 2</title>
+    <style>
+        form{
+            background-color: yellow;
+            width: 500px;
+            height: auto;
+            font-family: Arial;
+            padding-top:5px;
+            margin: auto;
+        }
+        table{
+            width: 500px;
+        }
+        h3{
+            background-color: lightblue;
+            color: blue;
+            width: 480px;
+            margin-left: 10px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            size: 22px;
+        }
+    </style>
+</head>
+<body>
+<form action="baiTap2.html">
+    <h3>ĐĂNG KÝ HỌC VIÊN</h3>
+    <table>
+        <tr>
+            <td>
+                <label style="color: blue">Họ và tên </label>
+            </td>
+            <td>
+                <input type="text" name="name" title="Họ và tên" style="width: 230px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label style="color: blue">Ngày sinh </label>
+            </td>
+            <td>
+                <input type="date" name="nsinh" title="Ngày sinh">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label style="color: blue">Giới tính</label>
+            </td>
+            <td>
+                <input type="radio" name="cb1" value="Nam">
+                <label>Nam</label>
+                <input type="radio" name="cb1" value="Nữ">
+                <label>Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label style="color: blue">Địa chỉ</label>
+            </td>
+            <td>
+                <textarea rows="3" cols="25"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label style="color: blue">Lớp</label>
+            </td>
+            <td>
+                <select name="lop">
+                    <option>18T1</option>
+                    <option>18T2</option>
+                    <option>18T3</option>
+                    <option>18T4</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label style="color: blue">Email </label>
+            </td>
+            <td>
+                <input type="email" name="email" title="Email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label style="color: blue">Điện thoại</label>
+            </td>
+            <td>
+                <input type="text" name="sdt" title="Điện thoại">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" name="signup" title="Đăng kí" value="Đăng kí">
+                <input type="submit" name="login" title="Đăng nhập" value="Đăng nhập">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

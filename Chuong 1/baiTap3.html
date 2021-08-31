@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 3</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        select{
+            width: 800px;
+        }
+        label{
+            font-family: Arial;
+            font-weight: bold;
+        }
+         span{
+            font-family: Arial;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+<h1>Market Research Survey</h1>
+<p>Please take a few moments to complete this saticfaction survey</p>
+<form action="baiTap3.html">
+<label>What is your age range?</label>
+<br>
+<select name="Age">
+    <option>18-24</option>
+    <option>25-34</option>
+    <option>35-50</option>
+    <option>50+</option>
+</select><br>
+<label>What is your yearly income range?</label>
+<br>
+<select name="money">
+    <option value="$0 - $25,000">$0 - $25,000</option>
+    <option value="$25,001 - $50,000">$25,001 - $50,000</option>
+    <option value="$50,001 - $100,000">$50,001 - $100,000</option>
+    <option value="$100,000+">$100,000+</option>
+</select><br>
+<label>Gender</label><br>
+<input id="gt1" type="radio" value="Male" name="gender"/>
+<label for="gt1">
+    <span>Male</span><br>
+</label>
+<input id="gt2" type="radio" value="Female" name="gender"/>
+<label for="gt2">
+    <span>Female</span><br>
+</label>
+<label>Which of the following products have your purchased in the last 2 months. Please check all that apply.</label><br>
+<input type="checkbox" id="cb1" value="Product 1" name="sp"/>
+<label for="cb1">
+    <span>Product 1</span><br>
+</label>
+<input type="checkbox" id="cb2" value="Product 2" name="sp"/>
+<label for="cb2">
+    <span>Product 2</span><br>
+</label>
+<input type="checkbox" id="cb3" value="Product 3" name="sp"/>
+<label for="cb3">
+    <span>Product 3</span><br>
+</label>
+<label>How often would you use our new product?</label><br>
+<input id="t1" type="radio" value="Daily" name="time"/>
+<label for="t1">
+    <span>Daily</span><br>
+</label>
+<input id="t2" type="radio" value="Weekly" name="time"/>
+<label for="t2">
+    <span>Weekly</span><br>
+</label>
+<input id="t3" type="radio" value="Monthly" name="time"/>
+<label for="t3">
+    <span>Monthly</span><br>
+</label>
+<label>What would you pay for the new product?</label><br>
+<span>$</span>
+    <input id="dl1" type="text" style="width: 55px">
+    <label for="dl1">
+        <span>Dollars</span>
+    </label>
+<span>.</span>
+    <input id="dl2" type="text" style="width: 35px">
+    <label for="dl2">
+        <span>Cents</span>
+    </label>
+<br>
+<label>What features would you like to see in the new product.</label><br>
+<textarea name="Thong_tin" style="max-width: 1496px; min-width: 1496px"></textarea><br>
+<label>Please rate your level of agreement with the following statements.</label><br>
+<table>
+    <tr>
+        <th></th>
+        <th>
+            Strongly Disagree
+        </th>
+        <th>
+            Disagree
+        </th>
+        <th>
+            Agree
+        </th>
+        <th>
+            Strongly Agree
+        </th>
+    </tr>
+    <tr>
+        <th style="text-align: left">
+            Our products are priced fairly.
+        </th>
+        <td>
+            <input type="radio" id="dis11" name="row1"><br>
+            <label for="dis11">
+                <span>1</span>
+            </label>
+        </td>
+        <td>
+            <input type="radio" id="dis12" name="row1"><br>
+            <label for="dis12">
+                <span>2</span>
+            </label>
+        </td>
+        <td>
+            <input type="radio" id="dis13" name="row1"><br>
+            <label for="dis13">
+                <span>3</span>
+            </label>
+        </td>
+        <td>
+            <input type="radio" id="dis14" name="row1"><br>
+            <label for="dis14">
+                <span>4</span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <th style="text-align: left">
+            Our products are high quality.
+        </th>
+        <td>
+            <input type="radio" id="dis21" name="row2"><br>
+            <label for="dis21">
+                <span>1</span>
+            </label>
+        </td>
+        <td>
+            <input type="radio" id="dis22" name="row2"><br>
+            <label for="dis22">
+                <span>2</span>
+            </label>
+        </td>
+        <td>
+            <input type="radio" id="dis23" name="row2"><br>
+            <label for="dis23">
+                <span>3</span>
+            </label>
+        </td>
+        <td>
+            <input type="radio" id="dis24" name="row2"><br>
+            <label for="dis24">
+                <span>4</span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <th style="text-align: left">
+            You would recommend our product to a friend or coworker.
+        </th>
+        <td>
+            <input type="radio" id="dis31" name="row3"><br>
+            <label for="dis31">
+                <span>1</span>
+            </label>
+        </td>
+        <td>
+            <input type="radio" id="dis32" name="row3"><br>
+            <label for="dis32">
+                <span>2</span>
+            </label>
+        </td>
+        <td>
+            <input type="radio" id="dis33" name="row3"><br>
+            <label for="dis33">
+                <span>3</span>
+            </label>
+        </td>
+        <td>
+            <input type="radio" id="dis34" name="row3"><br>
+            <label for="dis34">
+                <span>4</span>
+            </label>
+        </td>
+    </tr>
+</table>
+    <input type="submit" value="submit" style="margin: 10px">
+</form>
+</body>
+</html>
