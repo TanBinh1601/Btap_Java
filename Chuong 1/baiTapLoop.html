@@ -19,7 +19,9 @@
 <label>Bài 6: Tổng 30 sô chia hết cho 7 đầu tiên</label>
 <button onclick="bai6()">Chạy bài</button><br>
 <label>Bài 7: In ra số từ 1 đến 100. Nếu số chia hết cho 3 in ra Fizz, số chia hết cho 5 in ra Buzz, số chia hết cho 3 và cho 5 in ra FizzBuzz</label>
-<button onclick="bai7()">Chạy bài</button>
+<button onclick="bai7()">Chạy bài</button><br>
+<label>Bài 8: Game Đánh đề</label>
+<button onclick="bai8()"> Chơi </button>
 <script>
     function bai1() {
         for (let i=1; i<=100; i++){
@@ -117,6 +119,16 @@
                 document.write(i + ", ")
             }
         }
+    }
+    function bai8() {
+        let min = parseInt(prompt("nhập khoản từ: "));
+        let max = parseInt(prompt("đến: "));
+        let x = parseInt(prompt("Nhập số dự đoán ( từ " + min + " đến " + max + " ): "));
+        let kq = Math.floor(Math.random() * (max - min + 1) + min);
+        while (x!=kq){
+            x = parseInt(prompt("Nhập lại số dự đoán"));
+        }
+        alert("Chúc mùng bạn đã đoán trúng");
     }
 </script>
 </body>
