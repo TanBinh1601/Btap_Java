@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai Tap 7</title>
+</head>
+<body>
+<form action="baiTap7.html">
+    <input type="number" id="month">
+    <button type="button" onclick="tinhngay()">Tính số ngày</button>
+    <p style="font-weight: bold" id="day"></p>
+</form>
+<script>
+    function tinhngay() {
+        let m = document.getElementById('month').value;
+        let text;
+        switch (m) {
+            case '1':
+            case '3':
+            case '5':
+            case '7':
+            case '8':
+            case '10':
+            case '12':
+                text = 'Tháng có 31 ngày';
+                break;
+            case '2':
+                text = 'Tháng có 28 hoặc 29 ngày';
+                break;
+            case '4':
+            case '6':
+            case '9':
+            case '11':
+                text = 'Tháng có 30 ngày';
+                break;
+            default :
+                text = 'Vui lòng nhập tháng trong năm';
+        }
+        document.getElementById("day").innerHTML = text;
+    }
+</script>
+</body>
+</html>

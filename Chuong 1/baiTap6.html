@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai Tap 6</title>
+</head>
+<body>
+<form action="baiTap6.html">
+    <label style="margin-right: 92px" for="w">weight:(kg)</label>
+    <label for="h">height:(m)</label><br>
+    <input type="text" id="w">
+    <input type="text" id="h"><br>
+    <button style="margin: 5px" type="button" onclick="tt()">Tinh toan</button>
+</form>
+<script>
+    function tt() {
+        let a = document.getElementById('w');
+        let b = document.getElementById('h');
+        let kq = parseFloat(a.value) / (parseFloat(b.value) ^ 2);
+        if (kq < 18){
+            document.write("Underweight");
+        }
+        else if (kq < 25){
+            document.write("Normal");
+        }
+        else if (kq < 30){
+            document.write("Overweight");
+        }
+        else {
+            document.write("Obese");
+        }
+    }
+</script>
+</body>
+</html>

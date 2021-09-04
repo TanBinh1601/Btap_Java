@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai Tap 5</title>
+</head>
+<body>
+<form>
+    <h3>Caculator</h3>
+    <input type="text" id="s1">
+    <input type="text" id="s2"><br>
+    <button type="button" onclick="tinhtoan('+')">Addition(+)</button>
+    <button type="button" onclick="tinhtoan('-')">Subtraction(-)</button>
+    <button type="button" onclick="tinhtoan('x')">Multiplication(X)</button>
+    <button type="button" onclick="tinhtoan('/')">Division(/)</button><br>
+    <p id="kq"></p>
+</form>
+<script>
+    function tinhtoan(pt){
+        let a = document.getElementById("s1");
+        let b = document.getElementById("s2");
+        let x = parseFloat(a.value);
+        let y = parseFloat(b.value);
+        let c;
+        switch (pt) {
+            case '+':
+                c = x + y;
+                break;
+            case '-':
+                c = x - y;
+                break;
+            case 'x':
+                c = x * y;
+                break;
+            case '/':
+                c = x / y;
+                break;
+        }
+        document.getElementById("kq").innerHTML = 'Result Division: ' + c;
+    }
+</script>
+</body>
+</html>
