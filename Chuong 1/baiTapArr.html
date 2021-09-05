@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập Mảng</title>
+</head>
+<body>
+<h3>Bài tập mảng</h3>
+<label>Bài 1: Tạo mảng với 10 số nguyên. Tính và đưa ra màn hình có bao nhiêu sô nguyên lớn hơn hoặc bằng 10.</label>
+<button onclick="bai1()">Chạy bài</button>
+<br>
+<label>Bài 2: khởi tạo mảng với 10 phần tử khác nhau. Đưa ra phần tử lớn nhất và vị trí của phần tử đó.</label>
+<button onclick="bai2()">Chạy bài</button>
+<br>
+<label>Bài 3: Khởi tạo mảng số nguyên. Đưa ra phần tử lớn nhất, trung bình các phần tử trogn mảng.</label>
+<button onclick="bai3()">Chạy bài</button>
+<br>
+<label>Bài 4: Khởi tạo nhập vào mảng số nguyên và đảo ngược các phần tử.</label>
+<button onclick="bai4()">Chạy bài</button>
+<br>
+<label>Bài 5: Đếm số nguyên âm trong chuỗi</label>
+<button onclick="bai5()">Chạy bài</button>
+<br>
+<label>Bài 6: Kiểm tra phần tử trong mảng</label>
+<button onclick="bai6()">Chạy bài</button>
+<br>
+<label>Bài 7: Xóa phần tử trong mảng</label>
+<button onclick="bai7()">Chạy bài</button>
+<br>
+<label>Bài 8: Sắp xếp mảng giảm dần</label>
+<button onclick="bai8()">Chạy bài</button>
+<br>
+<label>Bài 9: Cộng mảng</label>
+<button onclick="bai9()">Chạy bài</button>
+<script>
+    function bai1() {
+        let arr = [15, 6, 10, 9, 49, 10, 1, 55, 68, 3];
+        let tg = 0;
+        for (let i in arr){
+            if (arr[i] >= 10){
+                tg += 1;
+            }
+        }
+        document.write("Số phần tử lớn hơn 10: "+tg);
+    }
+    function bai2() {
+        let arr = [15, 6, 10, 9, 49, 12, 1, 35, 8, 3];
+        let max = 0;
+        let vt = 0;
+        for (let i in arr){
+            if (arr[i]>max){
+                max = arr[i];
+                vt = parseInt(i) + 1;
+            }
+        }
+        document.write("Phần tử lớn nhất là: " + max + " - Nằm vị trị thứ " + vt);
+    }
+    function bai3() {
+        let arr = [15, 6, 9, 10, 49, 12, 1, 35, 8, 3];
+        let tg = 0;
+        let tb = 0;
+        for (let i in arr){
+            tg += arr[i];
+        }
+        tb = tg /arr.length;
+        let max =  Math.max.apply(null, arr);
+        document.write("Phần tử lớn nhất là: " + max + "<br>");
+        document.write("Trung bình các phần tử trong mảng: " + tb);
+    }
+    function bai4() {
+        let n = parseInt(prompt("Nhập số phần tử: "));
+        let arr = new Array();
+        for (let i=1; i<=n; i++){
+            arr[i-1] = parseInt(prompt("Nhập phần tử thứ " + i + ": "));
+        }
+        document.write(arr.toString());
+        document.write("<br>");
+        arr.reverse()
+        document.write("Mảng sau khi đảo ngược: " + arr.toString());
+    }
+    function bai5() {
+        let arr = [15, -6, 9, -10, -49, 12, 1, -5, 8, 3];
+        let arr1 = new Array();
+        for (let i in arr){
+            if (arr[i]<0){
+                arr1.push(arr[i]);
+            }
+        }
+        document.write("Tổng số nguyên âm: " + arr1.length)
+    }
+    function bai6() {
+        let arr = new Array(10);
+        for (let i=1; i<=10; i++){
+            arr[i-1] = parseInt(prompt("Nhập phần tử thứ " + i + ": "));
+        }
+        document.write("Mảng đã nhập: " + arr.toString());
+        document.write("<br>");
+        let s = parseInt(prompt("Nhập số cần Tìm: "));
+        let check = false;
+        for (let x in arr){
+            if (arr[x]==s){
+                check = true;
+                break;
+            }
+        }
+        if (check == true){
+            document.write(s+" có trong mảng");
+        }
+        else {
+            document.write(s+" không có trong mảng");
+        }
+    }
+    function bai7() {
+        let arr = new Array(10);
+        for (let i=1; i<=10; i++){
+            arr[i-1] = parseInt(prompt("Nhập phần tử thứ " + i + ": "));
+        }
+        document.write("Mảng đã nhập: " + arr.toString());
+        document.write("<br>");
+        let s = parseInt(prompt("Nhập số cần Xóa: "));
+        for (let x in arr) {
+            while(arr[x] == s) {
+                arr.splice(x, 1);
+                arr.push(0);
+            }
+        }document.write("Số cần xóa: " + s);
+        document.write("<br>");
+        document.write("Kết quả: " + arr.toString());
+    }
+    function bai8() {
+        let arr = new Array(10);
+        for (let i=1; i<=10; i++){
+            arr[i-1] = parseInt(prompt("Nhập phần tử thứ " + i + ": "));
+        }
+        document.write("Mảng đã nhập: " + arr.toString());
+        document.write("<br>");
+        arr.sort();
+        arr.reverse()
+        document.write("Kết quả: " + arr.toString());
+    }
+    function bai9() {
+        let arr1 = new Array(10);
+        for (let i=1; i<=10; i++){
+            arr1[i-1] = parseInt(prompt("Mảng 1: Nhập phần tử thứ " + i + ": "));
+        }
+        let arr2 = new Array(10);
+        for (let i=1; i<=10; i++){
+            arr2[i-1] = parseInt(prompt("Mảng 2: Nhập phần tử thứ " + i + ": "));
+        }
+        let arr3 = new Array(20);
+        arr3 = arr1.concat(arr2);
+        document.write("Mảng 1: " + arr1.toString());
+        document.write("<br>");
+        document.write("Mảng 2: " + arr2.toString());
+        document.write("<br>");
+        document.write("Mảng 3: " + arr3.toString());
+    }
+</script>
+</body>
+</html>
