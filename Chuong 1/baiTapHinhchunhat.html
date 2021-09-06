@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hình chữ nhật</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="1000px" height="900px" style="border: 1px"></canvas>
+<script>
+    let Retangle = function (cr, cd) {
+        this.getCd = function () {
+            return cd;
+        }
+        this.getCr = function () {
+            return cr;
+        }
+        this.getDT = function () {
+            return cd*cr;
+        }
+        this.getCV = function () {
+            return (cd+cr)*2;
+        }
+    }
+    let hcn = new Retangle(200,300);
+    let c = document.getElementById("myCanvas");
+    let ctx = c.getContext("2d");
+    ctx.fillStyle = "#FF0000";
+    ctx.fillRect(20,20,hcn.getCd(), hcn.getCr());
+    alert("Diện tích: " + hcn.getDT() + " Chu vi: " + hcn.getCV())
+</script>
+</body>
+</html>

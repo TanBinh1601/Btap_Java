@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm</title>
+</head>
+<body>
+<h3>Bài tập Hàm</h3>
+<label>Bài 1: Tạo hàm alertMessage()</label>
+<button onclick="alertMessage()">Chạy bài</button><br>
+<label>Bài 2: Tạo hàm nhập vào 1 số và tăng giá trị lên</label>
+<button onclick="baiTap2()">Chạy bài</button><br>
+<label>Bai 3: Hàm nhập 2 số. Nếu số thứ nhất lớn hơn số thứ 2 thì in ra thông báo, ngược lại đưa ra tổng 2 số</label>
+<button onclick="baiTap3()">Chạy bài</button><br>
+<label>Bai 4: addNumber</label>
+<button onclick="addNumber()">Chạy bài</button><br>
+<label>Bài 5: Tìm chòm sao</label>
+<button onclick="baiTap5()">Chạy bài</button>
+</body>
+<script>
+    function alertMessage() {
+        alert("Xin chao");
+    }
+    function baiTap2() {
+        let a = parseInt(prompt("Nhập số: "));
+        a +=1;
+        alert("Kết quả: " + a);
+    }
+    function baiTap3() {
+        let a = parseInt(prompt("Nhập số thứ 1: "));
+        let b = parseInt(prompt("Nhập số thứ 2: "));
+        if (a>b){
+            alert("Số thứ 1: "+a+", số thứ 2: " + b);
+        }
+        else {
+            alert("Tổng 2 sô: " + parseInt(a+b));
+        }
+    }
+    function addNumber() {
+        fistNum = 4;
+        secondNum = 8;
+        result = fistNum + secondNum;
+        alert("Kết quả: " + result);
+        return result;
+    }
+    result = 0;
+    result = addNumber();
+    function baiTap5() {
+        let m1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+        let m2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major","Leo"];
+        let s = prompt("Nhập sao cần tìm: ");
+        if(m1.indexOf(s)!==-1){
+            alert(s + " --> " + m2[m1.indexOf(s)]);
+        }
+        else {
+            alert("Không tìm thấy sao");
+        }
+    }
+</script>
+</html>
