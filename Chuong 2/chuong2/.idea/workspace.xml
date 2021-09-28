@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d437804-92a6-4c1b-87de-9a9f3dcd8b78" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xygkpyRH9mUNxKNNJkOqpuqK1X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Application.Fan">
+    <configuration name="Fan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lopDoiTuong.Fan" />
+      <module name="chuong2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lopDoiTuong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demSoLanXH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baiTapMang.demSoLanXH" />
+      <module name="chuong2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baiTapMang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gopMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baiTapMang.gopMang" />
+      <module name="chuong2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baiTapMang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="phanTuMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baiTapMang.phanTuMin" />
+      <module name="chuong2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baiTapMang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="phuongTrinhBac2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lopDoiTuong.phuongTrinhBac2" />
+      <module name="chuong2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lopDoiTuong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Fan" />
+        <item itemvalue="Application.phuongTrinhBac2" />
+        <item itemvalue="Application.demSoLanXH" />
+        <item itemvalue="Application.phanTuMin" />
+        <item itemvalue="Application.gopMang" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d437804-92a6-4c1b-87de-9a9f3dcd8b78" name="Default Changelist" comment="" />
+      <created>1631332887288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631332887288</updated>
+      <workItem from="1631332890997" duration="2932000" />
+      <workItem from="1631342830111" duration="1929000" />
+      <workItem from="1631541790936" duration="1895000" />
+      <workItem from="1631601769524" duration="8109000" />
+      <workItem from="1631696501050" duration="1189000" />
+      <workItem from="1631778035131" duration="426000" />
+      <workItem from="1631801343930" duration="7311000" />
+      <workItem from="1631890663589" duration="5013000" />
+      <workItem from="1632055738051" duration="740000" />
+      <workItem from="1632109321533" duration="1097000" />
+      <workItem from="1632222835909" duration="603000" />
+      <workItem from="1632235731295" duration="1180000" />
+      <workItem from="1632321066392" duration="1189000" />
+      <workItem from="1632368236063" duration="594000" />
+      <workItem from="1632390216074" duration="1176000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1631896265830">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="102" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1631896265830" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1631899207666">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1631899207666" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1631899207666">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1631899207666" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1631899207666">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1631899207666" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1631899207666">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1631899207666" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1631814783237">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1631814783237" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1631814783237">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1631814783237" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1631814783236">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1631814783236" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1631814783237">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1631814783237" />
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1632390941324">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1632390941324" />
+    <state x="209" y="39" key="new project wizard" timestamp="1632391528188">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="39" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1632391528188" />
+  </component>
+</project>
